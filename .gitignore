@@ -1,0 +1,8 @@
+# Carpetas de trabajo que no forman parte del sitio publicado
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Marco auxiliar usado solo para las capturas de verificación
+_capturas/_marco.html

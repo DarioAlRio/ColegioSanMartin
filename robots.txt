@@ -1,0 +1,7 @@
+# robots.txt — Colegio San Martín
+User-agent: *
+Allow: /
+Disallow: /_build/
+Disallow: /assets/img/_original/
+
+Sitemap: https://colegiosanmartin.com/sitemap.xml
