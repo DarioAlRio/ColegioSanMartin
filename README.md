@@ -242,8 +242,8 @@ Además:
 **Sitio estático, sin gestor de contenidos.** El sitio antiguo iba con Joomla, que
 necesita PHP, base de datos y actualizaciones constantes. Un colegio no tiene por
 qué mantener eso. Y hay una razón más concreta: **el Joomla del colegio está
-comprometido** —lleva inyectados unos 150 enlaces ocultos de spam en todas sus
-páginas—. Está explicado en `PENDIENTE.md`. Una web estática no tiene por dónde
+comprometido** —lleva inyectados 238 enlaces ocultos de spam en cada una de sus
+41 páginas, 9.758 en total—. Está explicado en `PENDIENTE.md`. Una web estática no tiene por dónde
 ser atacada así.
 
 **Un generador propio en lugar de escribir 29 archivos a mano.** Sin él, cambiar el

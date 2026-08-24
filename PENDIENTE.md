@@ -70,12 +70,21 @@ páginas**, un bloque oculto con este aspecto:
 
 ```html
 <div class="mangsud" style="position:absolute; left:-9999px">
-  ... unos 150 enlaces a webs de casinos, apuestas y loterías ...
+  ... 238 enlaces a webs de casinos, apuestas y loterías ...
 </div>
 ```
 
 Está colocado fuera de la pantalla para que no lo vea ningún visitante, pero **sí
-lo ven los buscadores**. Es un ataque de *spam SEO*: alguien ha entrado en el
+lo ven los buscadores**.
+
+Las cifras exactas, contadas sobre el rastreo del dominio:
+
+| | |
+|---|---|
+| Páginas afectadas | **41 de 41** |
+| Enlaces ocultos por página | **238** |
+| Total en el sitio | **9.758** |
+| Dominios distintos | **231** | Es un ataque de *spam SEO*: alguien ha entrado en el
 gestor del sitio y usa el prestigio del dominio de un colegio para posicionar webs
 de apuestas.
 
