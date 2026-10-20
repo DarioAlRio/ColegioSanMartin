@@ -119,7 +119,7 @@ function boton(texto, url, opts) {
   const externo = /^https?:/.test(url);
   const rel = externo ? ' target="_blank" rel="noopener"' : '';
   const ico = opts.icono ? icono(opts.icono) : (externo ? icono('externo') : '');
-  return '<a class="' + clase + '" href="' + url + '"' + rel + '>' +
+  return '<a class="' + clase + '" href="' + esc(url) + '"' + rel + '>' +
     '<span>' + esc(texto) + '</span>' + ico + '</a>';
 }
 

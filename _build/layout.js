@@ -277,6 +277,11 @@ function bandaCta(o) {
    PIE
    -------------------------------------------------------------------------- */
 function pie() {
+  // La columna del pie es estrecha y el número de portal se quedaba solo en
+  // una tercera línea. Un espacio duro lo mantiene pegado a la calle. El dato
+  // no cambia: es el mismo texto, solo se le prohíbe partir por ahí.
+  const calle = SITE.direccion.calle.replace(/ ([^ ]+)$/, ' $1');
+
   return `
 <footer class="pie">
   <div class="envoltura pie__interior">
@@ -301,7 +306,9 @@ function pie() {
 
     <address class="pie__contacto">
       <p class="pie__titulo">Dónde estamos</p>
-      <p>${esc(SITE.direccion.calle)}<br>${esc(SITE.direccion.cp)} ${esc(SITE.direccion.ciudad)}</p>
+      <p><a class="pie__direccion" href="${esc(SITE.mapaUrl)}" target="_blank" rel="noopener"
+            aria-label="Ver la dirección del colegio en Google Maps (se abre en otra pestaña)"
+         >${icono('mapa')}<span>${esc(calle)}<br>${esc(SITE.direccion.cp)} ${esc(SITE.direccion.ciudad)}</span></a></p>
       <p><a href="tel:${SITE.telefonoE164}">${esc(SITE.telefono)}</a></p>
       <p><a class="correo" href="#" data-correo="${SITE.correo.cuenta}|${SITE.correo.dominio}">correo del colegio</a></p>
       <p class="pie__transporte">${esc(SITE.transporte.metro)}<br>${esc(SITE.transporte.bus)}</p>

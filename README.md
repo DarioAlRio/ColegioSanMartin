@@ -55,6 +55,7 @@ detiene con un error en lugar de generar una web rota.
 | Si quiere cambiar… | Toque este archivo |
 |---|---|
 | Teléfono, correo, dirección, horarios, redes sociales | `_build/nav.js` (objeto `SITE`) |
+| El punto del mapa (dirección del pie y botón de contacto) | `_build/nav.js` → `SITE.coordenadas`; la URL se compone sola en `SITE.mapaUrl` |
 | El menú: familias, enlaces, descripciones | `_build/nav.js` (objeto `NAV`) |
 | El pie de página | `_build/nav.js` (objeto `FOOT`) |
 | Precios de comedor, gabinetes o extraescolares | `_build/data.js` |

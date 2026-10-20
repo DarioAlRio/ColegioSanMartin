@@ -7,7 +7,7 @@ const L = require('../lib');
 const { icono, imagen, esc, boton } = L;
 
 module.exports = function (ctx) {
-  const mapaUrl = 'https://www.google.com/maps/@' + SITE.coordenadas.lat + ',' + SITE.coordenadas.lon + ',16z';
+  const mapaUrl = SITE.mapaUrl; // la misma URL que la direccion del pie (ver nav.js)
 
   const contacto = {
     url: 'contacto.html',

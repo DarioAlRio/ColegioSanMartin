@@ -1081,6 +1081,20 @@ textarea.campo { min-height: 150px; resize: vertical; line-height: 1.6; }
 
 .pie__contacto { font-style: normal; }
 .pie__contacto p { margin-bottom: var(--e-3); }
+
+/* La dirección abre Google Maps. El aviso es la chincheta, no un subrayado:
+   en este pie ningún enlace va subrayado en reposo y subrayar solo este lo
+   dejaría descolgado de sus vecinos (teléfono y correo). */
+.pie__contacto .pie__direccion {
+  display: inline-flex; align-items: flex-start; gap: .5em;
+}
+.pie__direccion .icono {
+  flex: none; width: 1.15em; height: 1.15em;
+  margin-top: .12em;              /* alinea con la mayúscula, no con la caja */
+  color: var(--sol);
+  transition: transform .16s ease;
+}
+.pie__direccion:hover .icono { transform: translateY(-2px); }
 .pie__transporte { font-size: var(--t-xs); color: var(--sobre-oscuro-suave); }
 
 .pie__base { border-top: 1px solid rgba(255, 255, 255, .18); }
@@ -1244,10 +1258,15 @@ textarea.campo { min-height: 150px; resize: vertical; line-height: 1.6; }
      el propio enlace ya aporta la separación. */
   .pie__mapa li { margin-bottom: 0; }
   .pie__mapa a,
-  .pie__contacto a:not(.correo) {
+  .pie__contacto a:not(.correo):not(.pie__direccion) {
     display: inline-flex; align-items: center; min-height: 44px;
   }
   .pie__contacto .correo { display: inline-block; padding-block: 12px; }
+
+  /* La dirección queda fuera de la regla anterior porque necesita
+     align-items: flex-start (la chincheta va arriba, no centrada entre dos
+     líneas). Ocupa dos líneas, así que el relleno ya la pasa de 44 px. */
+  .pie__contacto .pie__direccion { padding-block: 6px; }
 
   /* Migas: 20 -> 44 px. */
   .migas a { display: inline-flex; align-items: center; min-height: 44px; }

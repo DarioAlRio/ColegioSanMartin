@@ -38,6 +38,15 @@ const SITE = {
   // origen: enlace de Google Maps del pie de la página de localización
   coordenadas: { lat: 40.4117735, lon: -3.6526342 },
 
+  // Se construye con las coordenadas de arriba y no con el texto de la calle:
+  // buscar por direccion depende de que Google la resuelva bien, y las
+  // coordenadas apuntan siempre al mismo punto. Formato oficial de Google
+  // Maps URLs: pone chincheta y abre la aplicacion del movil si la hay.
+  get mapaUrl() {
+    return 'https://www.google.com/maps/search/?api=1&query='
+      + this.coordenadas.lat + ',' + this.coordenadas.lon;
+  },
+
   codigoCentro: '28017893', // origen: /index.php/admisiones
 
   // origen: /index.php/contacto/como-llegar

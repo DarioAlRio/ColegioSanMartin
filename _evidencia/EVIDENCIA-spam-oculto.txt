@@ -1,0 +1,121 @@
+EVIDENCIA — Enlaces ocultos de spam en colegiosanmartin.com
+==============================================================
+
+Comprobado el: 24 de agosto de 2026
+Pagina:        https://colegiosanmartin.com/ (portada)
+Metodo:        descarga directa del HTML publico, sin modificar
+
+RESUMEN
+--------------------------------------------------------------
+  Enlaces ocultos en esta pagina .... 238
+  Dominios distintos ............... 232
+  Paginas del sitio afectadas ...... 41 de 41
+  Total estimado en el sitio ....... 9758
+
+COMO ESTA OCULTO
+--------------------------------------------------------------
+<div class="mangsud" style="position: absolute; left: -9999px; top: -9999px; width: 1px; height: 1px; overflow: hidden;">
+
+  position: absolute .... lo saca del flujo de la pagina
+  left/top: -9999px ..... lo manda fuera de la pantalla
+  width/height: 1px ..... lo reduce a un punto
+  overflow: hidden ...... recorta lo que sobresalga
+
+COMO COMPROBARLO
+--------------------------------------------------------------
+  1. Abrir https://colegiosanmartin.com/
+  2. Ctrl+U  (ver codigo fuente)
+  3. Ctrl+F  y buscar: mangsud
+
+TEXTOS DE LOS ENLACES (los 40 primeros de 238)
+--------------------------------------------------------------
+    1. Slot Online
+    2. https://kemenpppa.com/
+    3. situs slot gacor
+    4. slot qris
+    5. Slot Deposit Pulsa
+    6. Slot Qris
+    7. slot gacor
+    8. slot gacor
+    9. slot gopay
+   10. mixparlay
+   11. slot gacor 777
+   12. slot gacor malam ini
+   13. Situs Toto
+   14. keluaran sdy
+   15. Situs Toto
+   16. Toto Slot
+   17. scatter hitam
+   18. https://www.dgsmartmom.com/
+   19. titi4d
+   20. https://wonderfulgraffiti.com/
+   21. Toto Slot
+   22. Slot Togel
+   23. gila4d
+   24. 4d slot
+   25. Slot demo
+   26. vegas969
+   27. ajo89
+   28. ajo89
+   29. slot88
+   30. slot thailand
+   31. deposit pulsa Indosat
+   32. RP888
+   33. depo 5k
+   34. slot gacor
+   35. mpo slot
+   36. slot
+   37. https://www.raars.zaragoza.unam.mx/fruit-boom/
+   38. Rans303
+   39. slot gacor
+   40. hantutogel
+
+DOMINIOS ENLAZADOS (los 40 primeros de 232)
+--------------------------------------------------------------
+    1. websud.net
+    2. kemenpppa.com
+    3. writingocean.com
+    4. mycuprunnethoverblog.com
+    5. eatchia.com
+    6. smpn1ayahkbm.sch.id
+    7. reciamuc.com
+    8. realfoodworks.com
+    9. supersmilesdental.com.au
+   10. birdiepic.com
+   11. babiestotsconsignment.com
+   12. travelpastibisa.id
+   13. sdiwatumingan.com
+   14. nosopharm.com
+   15. sman68.id
+   16. vilasportclub.com
+   17. fjh.fag.edu.br
+   18. dgsmartmom.com
+   19. bisaindonesia.id
+   20. wonderfulgraffiti.com
+   21. javacell.id
+   22. abdulaziz-se.id
+   23. heylink.me
+   24. gedungagung.id
+   25. deborahmartinfineart.com
+   26. quantusitsolutions.com
+   27. link.space
+   28. prem.sdblacklux.com
+   29. hoteljuniorkuppanna.com
+   30. silungkangartcentre.id
+   31. makassarpulsa.com
+   32. baronbonk.com
+   33. vinokiloevents.com
+   34. fruit4h.com
+   35. chateau-auneylhermitage.com
+   36. dishub.sambas.go.id
+   37. raars.zaragoza.unam.mx
+   38. citronandrose.com
+   39. lojaminichina.com
+   40. hantuceria.com
+
+NOTA
+--------------------------------------------------------------
+Este documento recoge unicamente lo que el sitio entrega publicamente a
+cualquier visitante. No se ha accedido al servidor ni a ningun panel de
+administracion. La copia integra del HTML esta en el archivo
+colegiosanmartin-portada-20260824.html, en esta misma carpeta.
